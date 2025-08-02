@@ -29,3 +29,15 @@ function show(){
     console.log(functionVar); // Throws ReferenceError
     console.log(functionLet); // Throws ReferenceError
     console.log(functionConst); // Throws ReferenceError
+//practice
+{
+    let beast = "Hello test";
+    var beast2 = "im a variable!"
+    const beast3 = "I cant change"
+}
+
+{
+    beast = "redo" // notice how you cant find let or const, block level scope meanwhile var is global!
+    beast2 = "Can you"
+    beast3 = "nope"
+}
